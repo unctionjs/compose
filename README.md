@@ -9,7 +9,8 @@
 Takes a list of functions and runs a value through that stack from right to left.
 
 ``` javascript
-pipe([toInteger, toString])(0) // 0
+compose([toInteger, toString])(0) // 0
+compose([append("b"), append("a")])("c") // "cab"
 ```
 
 [BADGE_TRAVIS]: https://img.shields.io/travis/unctionjs/compose.svg?maxAge=2592000&style=flat-square

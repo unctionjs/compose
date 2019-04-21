@@ -57,6 +57,7 @@
   },
   "dependencies": {
     "@unction/reducevalues": "7.0.0",
+    "@unction/reverse": "8.0.0",
     "@unction/thrush": "3.0.0"
   },
   "files": [
