@@ -1,7 +1,7 @@
 {
-  "name": "@unction/{{FQNAME}}",
+  "name": "@unction/compose",
   "version": "1.0.0",
-  "description": "",
+  "description": "Takes a list of functions and runs a value through that stack from right to left",
   "keywords": [
     "unction",
     "functional"
@@ -14,9 +14,9 @@
     }
   ],
   "license": "ISC",
-  "homepage": "https://github.com/unctionjs/{{NAME}}#readme",
-  "repository": "github:unctionjs/{{NAME}}",
-  "bugs": "https://github.com/unctionjs/{{NAME}}/issues",
+  "homepage": "https://github.com/unctionjs/compose#readme",
+  "repository": "github:unctionjs/compose",
+  "bugs": "https://github.com/unctionjs/compose/issues",
   "main": "main.js",
   "nyc": {
     "require": [
@@ -53,9 +53,12 @@
     "eslint-plugin-babel": "5.3.0",
     "eslint-plugin-promise": "4.1.1",
     "nyc": "13.3.0",
-    "tap": "12.6.1"
+    "tap": "12.6.2"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@unction/reducevalues": "7.0.0",
+    "@unction/thrush": "3.0.0"
+  },
   "files": [
     "index.js",
     "main.js",
