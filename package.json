@@ -69,5 +69,5 @@
     "browser.js.map"
   ],
   "browser": "browser.js",
-  "module": "index.js"
+  "module": "module.js"
 }
