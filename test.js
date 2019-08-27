@@ -1,7 +1,7 @@
 /* eslint-disable no-magic-numbers */
 import {test} from "tap";
 
-import compose from "./index";
+import compose from "./";
 
 const increment = (value) => value + 1;
 const toString = (value) => `${value}`;
