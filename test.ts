@@ -1,5 +1,5 @@
 /* eslint-disable no-magic-numbers */
-import compose from "./index.ts";
+import compose from "./index";
 
 const increment = (value) => value + 1;
 const toString = (value) => `${value}`;
