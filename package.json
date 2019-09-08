@@ -53,9 +53,9 @@
     "typescript": "3.5.1"
   },
   "dependencies": {
-    "@unction/reducevalues": "8.7.0",
-    "@unction/reverse": "9.7.0",
-    "@unction/thrush": "4.2.1"
+    "@unction/reducevalues": "8.8.0",
+    "@unction/reverse": "9.8.0",
+    "@unction/thrush": "4.2.2"
   },
   "files": [
     "index.ts",
