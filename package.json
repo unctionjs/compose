@@ -1,6 +1,6 @@
 {
   "name": "@unction/compose",
-  "version": "1.10.1",
+  "version": "1.11.0",
   "description": "Takes a list of functions and runs a value through that stack from right to left",
   "keywords": [
     "unction",
